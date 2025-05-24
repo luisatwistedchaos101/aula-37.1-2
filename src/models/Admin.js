@@ -17,3 +17,5 @@ class Admin extends Usuario {
     return RepositorioDeUsuario.buscarTodos();
   }
 }
+
+

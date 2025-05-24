@@ -12,6 +12,9 @@ class RepositorioDeUsuario {
   buscarPeloEmail(email) {
     return Usuario.buscarPeloEmail(email);
   }
+  deletar(id){
+    return Usuario.deletarUmUsuario(id)
+  }
 }
 
 module.exports = new RepositorioDeUsuario();
